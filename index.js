@@ -19,7 +19,7 @@ function johnLennonFacts(facts) {
   var array = []
   let i = 3
   while (i < facts.length) {
-    console.log(facts[0, 1, 2, 3] + `${"!!!"}`);
+    array.push(facts[0, 1, 2, 3] + `${"!!!"}`);
   }
   return array;
 }
